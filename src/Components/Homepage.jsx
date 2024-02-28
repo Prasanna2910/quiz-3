@@ -7,7 +7,7 @@ function HomePage() {
   return (
     <div className="Page">
       <h1>Quiz</h1>
-      <Link to="/Quiz">
+      <Link to="/Quizpage">
         <button className="playbtn">Play</button>
       </Link>
     </div>
