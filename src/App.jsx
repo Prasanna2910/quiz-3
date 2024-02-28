@@ -10,14 +10,10 @@ function App() {
 
   return (
     <>
-      {/* <div>
-        <Link to="/"></Link>
-        <Link to="/Quizpage"></Link>
-      </div> */}
       <Routes>
         <Route path="/" element={<Homepage />} />
-        <Route path="Quiz" element={<Quizpage />}></Route>
-        <Route path="Final" element={<Finalpage />}></Route>
+        <Route path="Quizpage" element={<Quizpage />}></Route>
+        <Route path="Finalpage" element={<Finalpage />}></Route>
       </Routes>
     </>
   );
